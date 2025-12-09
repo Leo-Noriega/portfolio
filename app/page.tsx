@@ -25,12 +25,12 @@ import { twMerge } from "tailwind-merge";
 const documents = {
   resume: {
     label: "Resume (English)",
-    file: "/resume-en.pdf",
+    file: "resume-en.pdf",
     accent: "from-cyan-500/40 to-slate-900",
   },
   cv: {
     label: "CV (Español)",
-    file: "/cv-es.pdf",
+    file: "cv-es.pdf",
     accent: "from-emerald-500/35 to-slate-900",
   },
 } as const;
