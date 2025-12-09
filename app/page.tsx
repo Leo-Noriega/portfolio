@@ -324,7 +324,6 @@ export default function Page() {
               <div className="px-4 pb-4">
                 <object
                   title={`Preview ${documents[activeDoc].label}`}
-                  src={`${documents[activeDoc].file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
                   data={`${documents[activeDoc].file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
                   className="h-[80vh] min-h-[520px] w-full rounded-[20px]"
                   style={{ margin: "0 auto", display: "block" }}
